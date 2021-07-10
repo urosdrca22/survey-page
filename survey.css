@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+#title{
+    color: green;
+    margin: auto;
+    text-align: center;
+}
+#description{
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    display: flex;
+}
+#form-wrapper{
+    background-color: 	#90EE90;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2.5rem;
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0.9;
+}
+#survey-form{
+    margin: auto;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+}

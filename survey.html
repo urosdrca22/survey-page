@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<div id="main">
+<head>
+  <title>Page Title</title>
+  <h1 id="title">Survey Form</h1>
+  <link rel="stylesheet" type="text/css" href="survey.css" />
+  <p id="description">Thank you for taking the time to improve our services.</p>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+    <div id="form-wrapper">
+            <form id="survey-form">
+                <div class="question">
+                    <label id="name-label" for="name">Name</label>
+                    <input id="name" type="text" required placeholder="Enter your name">
+                </div>
+                <div class="question">
+                    <label id="email-label" for="email">Email</label>
+                    <input id="email" type="email" required placeholder="Enter your email adress">
+                </div>
+                <div class="question">
+                <label id="number-label" for="number">Age</label>
+                <input id="number" type="number" min="18" max="99" required placeholder="Enter your age">
+                </div>
+                <div class="question">
+                <label id="dropdown-menu" for="dropdown">Select one</label>
+                <select name="dropdown-menu" id="dropdown">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+                </div>
+                <div class="question">
+                <label id="1-label" for="first-button">1st button</label>
+                <input id="first-button" value="1" type="radio" name="three-buttons">
+                <label id="2-label" for="first-button">2nd button</label>
+                <input id="second-button" value="2" type="radio" name="three-buttons">
+                <label id="3-label" for="first-button">3rd button</label>
+                <input id="third-button" value="3" type="radio" name="three-buttons">
+                </div>
+                <div class="question">
+                <label for="first-checkbox">1st checkbox</label>
+                <input id="first-checkbox" value="ch1" type="checkbox" name="three-boxes">
+                <label for="second-checkbox">2nd checkbox</label>
+                <input id="second-checkbox" value="ch2" type="checkbox" name="three-boxes">
+                <label for="third-checkbox">3rd checkbox</label>
+                <input id="third-checkbox" value="ch3" type="checkbox" name="three-boxes">
+                </div>
+                <div class="question">
+                <label for="comment-box">A place for your comments</label>
+                <textarea id="comment-box"></textarea>
+                </div>
+                <input id="submit" type="submit">
+            </form>
+    </div>  
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</div>
+</html>
